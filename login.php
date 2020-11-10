@@ -25,6 +25,9 @@ $returnData = [];
 if($_SERVER["REQUEST_METHOD"] != "POST"):
     $returnData = msg(0,404,'Page Not Found!');
 
+
+ 
+//check
 // CHECKING EMPTY FIELDS
 elseif(!isset($data->email) 
     || !isset($data->password)
