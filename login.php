@@ -38,6 +38,8 @@ elseif(!isset($data->email)
     $fields = ['fields' => ['email','password']];
     $returnData = msg(0,422,'Please Fill in all Required Fields!',$fields);
 
+    // Edit 
+
 // IF THERE ARE NO EMPTY FIELDS THEN-
 else:
     $email = trim($data->email);
